@@ -39,7 +39,7 @@ expected worst-case space complexity is O(1), beyond input storage (not counting
  */
 
 function solution(A){
-    var num = null;
+    var num = null; 
     for(var i= 0; i < A.length;i++){
         var hasPair = false;
         for(var j = 0; j < A.length; j++){
@@ -51,3 +51,4 @@ function solution(A){
     }
     return num;
 }
+
